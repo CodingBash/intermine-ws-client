@@ -11,9 +11,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Basheer/OneDrive/IT/Workspaces/sts-research-workspace/intermine-ws-client/lib/intermine-client.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Basheer/OneDrive/IT/Workspaces/sts-research-workspace/intermine-ws-client/lib/intermine-model.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Basheer/OneDrive/IT/Workspaces/sts-research-workspace/intermine-ws-client/lib/intermine-pathquery.jar"/>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>

@@ -38,7 +38,7 @@ public class MiRNAQueryClient
                 "MiRNA.chromosomeLocation.locatedOn.primaryIdentifier",
                 "MiRNA.chromosomeLocation.start",
                 "MiRNA.chromosomeLocation.end",
-                "MiRNA.chromosomeLocation.strand",
+				"MiRNA.chromosomeLocation.strand",
                 "MiRNA.dataSets.name",
                 "MiRNA.dataSets.url");
 

@@ -1,5 +1,7 @@
 package org.intermine.webservice.client.services;
 
+import static org.intermine.pathquery.PathConstraint.getExtraValue;
+
 /*
  * Copyright (C) 2002-2015 FlyMine
  *
@@ -12,7 +14,6 @@ package org.intermine.webservice.client.services;
 
 import static org.intermine.pathquery.PathConstraint.getValue;
 import static org.intermine.pathquery.PathConstraint.getValues;
-import static org.intermine.pathquery.PathConstraint.getExtraValue;
 
 import java.io.InputStreamReader;
 import java.util.ArrayList;
@@ -32,9 +33,10 @@ import org.intermine.template.SwitchOffAbility;
 import org.intermine.template.TemplateQuery;
 import org.intermine.template.xml.TemplateQueryBinding;
 import org.intermine.webservice.client.core.ContentType;
-import org.intermine.webservice.client.core.Request.RequestType;
 import org.intermine.webservice.client.core.Request;
+import org.intermine.webservice.client.core.Request.RequestType;
 import org.intermine.webservice.client.core.RequestImpl;
+import org.intermine.webservice.client.core.ServiceFactory;
 import org.intermine.webservice.client.exceptions.ServiceException;
 import org.intermine.webservice.client.results.Page;
 import org.intermine.webservice.client.results.RowResultSet;
