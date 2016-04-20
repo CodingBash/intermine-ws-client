@@ -50,5 +50,4 @@ public class SequenceQueryClient
         }
         out.printf("%d rows\n", service.getCount(query));
     }
-
 }
