@@ -12,6 +12,14 @@ import org.intermine.pathquery.PathQuery;
 import org.intermine.webservice.client.core.ServiceFactory;
 import org.intermine.webservice.client.services.QueryService;
 
+// Service request. Not SOAP?
+/* 
+ 
+	<query name="" model="genomic" view="Gene.transcripts.primaryIdentifier" longDescription="" sortOrder="Gene.transcripts.primaryIdentifier asc">
+  		<constraint path="Gene" op="LOOKUP" value="E2f1" extraValue="D. melanogaster"/>
+	</query>
+
+ */
 /**
  * Gets following information about Gene E2F1 D melanogaster from service
  * 
@@ -20,7 +28,9 @@ import org.intermine.webservice.client.services.QueryService;
  * @views Gene.transcripts.primaryIdentifier
  * 
  * @serviceExpectation 6x1 rows
+ * 
  *
+ * 
  */
 public class GeneE2F1DmelanogasterGeneTranscriptsQueryClient {
 	private static final String ROOT = "http://www.flymine.org/flymine/service";
